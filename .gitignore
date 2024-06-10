@@ -1,0 +1,23 @@
+# Ignora i file JSON generati per i wallet e i mint
+wallet.json
+new_wallet.json
+mint.json
+
+# Ignora la directory node_modules
+node_modules/
+
+# Ignora la directory del pacchetto .yarn
+.yarn/
+
+# Ignora i log di Yarn
+.yarnrc.yml
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Ignora i file di log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
